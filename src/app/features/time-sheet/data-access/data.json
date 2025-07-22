@@ -1,0 +1,364 @@
+[
+  {
+    "studentId": "12345",
+    "studentName": "Alice Smith",
+    "schedule": [
+      {
+        "className": "Math",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Physics",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Chemistry",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "English",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "History",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Biology",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Math",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Geography",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "Art",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "PE",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Math",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Physics",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Chemistry",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "English",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "History",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Biology",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Math",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Geography",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "Art",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "PE",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Math",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Physics",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Chemistry",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "English",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "History",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      }
+    ]
+  },
+  {
+    "studentId": "67890",
+    "studentName": "Bob Johnson",
+    "schedule": [
+      {
+        "className": "Math",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Physics",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Chemistry",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "English",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "History",
+        "day": "Monday",
+        "date": "2024-06-03",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Biology",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Math",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Geography",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "Art",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "PE",
+        "day": "Tuesday",
+        "date": "2024-06-04",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Math",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Physics",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Chemistry",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "English",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "History",
+        "day": "Wednesday",
+        "date": "2024-06-05",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Biology",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Math",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Geography",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "Art",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "PE",
+        "day": "Thursday",
+        "date": "2024-06-06",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      },
+      {
+        "className": "Math",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "08:00",
+        "endTime": "08:50"
+      },
+      {
+        "className": "Physics",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "09:00",
+        "endTime": "09:50"
+      },
+      {
+        "className": "Chemistry",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "10:00",
+        "endTime": "10:50"
+      },
+      {
+        "className": "English",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "11:00",
+        "endTime": "11:50"
+      },
+      {
+        "className": "History",
+        "day": "Friday",
+        "date": "2024-06-07",
+        "startTime": "12:00",
+        "endTime": "12:50"
+      }
+    ]
+  }
+]

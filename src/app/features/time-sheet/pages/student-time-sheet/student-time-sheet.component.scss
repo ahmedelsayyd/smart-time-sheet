@@ -1,0 +1,77 @@
+:host {
+  font-family: 'Roboto', Arial, sans-serif;
+  display: block;
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.input-wrapper {
+  position: relative;
+  flex-grow: 1;
+}
+
+input[type="text"] {
+  padding: 0.75rem 2.5rem 0.75rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  outline: none;
+  width: 100%;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 4px 16px rgba(0,123,255,0.08);
+}
+
+.search-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 1.25rem;
+  pointer-events: none;
+}
+
+button {
+  padding: 0.75rem 2rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+app-time-sheet-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

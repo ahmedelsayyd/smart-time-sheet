@@ -1,0 +1,22 @@
+<div class="search-container">
+  <div class="input-wrapper">
+    <input type="text" [formControl]="studentIdControl" placeholder="Search By Id" />
+    <span class="search-icon">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="9" cy="9" r="7" stroke="#aaa" stroke-width="2" />
+        <line x1="14.4142" y1="14" x2="18" y2="17.5858" stroke="#aaa" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </span>
+  </div>
+  <button (click)="onSearch()">Search</button>
+</div>
+
+<div *ngIf="studentName$ | async as studentName; else notFound">
+  <h3>Student: {{ studentName }}</h3>
+</div>
+<ng-template #notFound>
+  <h3>Student not found</h3>
+</ng-template>
+
+<app-time-sheet-table [schedule]="(schedule$ | async) || []"
+  [studentName]="(studentName$ | async) || ''"></app-time-sheet-table>
