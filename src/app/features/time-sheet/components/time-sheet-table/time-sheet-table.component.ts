@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
-import { HighlightedSchedule } from '../../data-access/time-sheet.facad.ts.service';
+import { HighlightedSchedule } from '../../data-access/time-sheet.facad';
 import { NgClass } from '@angular/common';
 
 @Component({
@@ -30,5 +30,4 @@ export class TimeSheetTableComponent {
     });
   }
 
-  $any(val: any) { return val; }
 }

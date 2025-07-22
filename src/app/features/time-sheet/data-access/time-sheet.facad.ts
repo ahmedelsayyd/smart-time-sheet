@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
-import { StudentRequest, ClassSchedule } from '../models/time-sheet.models';
-import { ITimeSheetDataSource, TimeSheetMockApiService } from './time-sheet.scrvice.ts.service';
+import { StudentRequest, ClassSchedule, ITimeSheetDataSource } from '../models/time-sheet.models';
+import { TimeSheetStrategyFactory } from './time-sheet-strategy.factory';
 
 export interface HighlightedSchedule extends ClassSchedule {
   isCurrent: boolean;
@@ -18,8 +18,10 @@ export class TimeSheetFacadeService {
   private studentNameSubject = new BehaviorSubject<string>('');
   studentName$ = this.studentNameSubject.asObservable();
 
-  constructor(private mockApi: TimeSheetMockApiService) {
-    this.dataSource = mockApi;
+  constructor(
+     timeSheetStrategyFactory:TimeSheetStrategyFactory) {
+    this.dataSource = timeSheetStrategyFactory.getStrategy('http');
+
   }
 
   loadStudentSchedule(studentId: string): void {
@@ -45,6 +47,8 @@ export class TimeSheetFacadeService {
     const now = new Date();
     const currentDay = now.toLocaleString('en-US', { weekday: 'long' });
     const currentTime = now.getHours() * 60 + now.getMinutes();
+    console.log(currentDay, currentTime, now.getHours() * 60,now.getMinutes());
+
     let foundCurrent = false;
     let foundNext = false;
     return schedule.map((cls) => {

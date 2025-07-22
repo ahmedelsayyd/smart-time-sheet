@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TimeSheetTableComponent } from '../../components/time-sheet-table/time-sheet-table.component';
-import { TimeSheetFacadeService } from '../../data-access/time-sheet.facad.ts.service';
+import { TimeSheetFacadeService } from '../../data-access/time-sheet.facad';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { AsyncPipe, NgIf } from '@angular/common';
 

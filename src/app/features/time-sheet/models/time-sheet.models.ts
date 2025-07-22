@@ -1,3 +1,5 @@
+import { Observable } from "rxjs";
+
 export interface StudentRequest {
   studentId: string;
 }
@@ -14,4 +16,8 @@ export interface StudentScheduleResponse {
   studentId: string;
   studentName: string;
   schedule: ClassSchedule[];
+}
+
+export interface ITimeSheetDataSource {
+  getStudentSchedule(request: StudentRequest): Observable<StudentScheduleResponse>;
 }
